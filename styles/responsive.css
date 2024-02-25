@@ -1,0 +1,48 @@
+@media (max-width: 1366px) {
+    lord-icon.icon-1{
+        width: 60px;
+    }
+
+    .navegacion .contenido a{
+        padding: 0 10px;
+        margin-right: 2px;
+    }
+
+    .navegacion .contenido a li {
+        font-size: 1rem;
+    }
+
+    .btn-sesion {
+        font-size: 1rem;
+        padding: 7px;
+    }
+    .navegacion .logo img {
+        margin-right: 0vh;
+    }
+    .navegacion .contenido {
+        margin-right: 0vh;
+    }
+    
+}
+
+
+@media (max-width: 950px) {
+    .navegacion .contenido a{
+        display: none;
+    }
+    
+    .hamburguesa {
+        display: inline-table;
+        margin-left: 70px;
+        width: 50px;
+    }
+    .btn-sesion {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 600px) {   
+    .navegacion {
+        display: flex;
+    }
+}

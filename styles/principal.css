@@ -1,0 +1,273 @@
+:root {
+    --color1: #071844;
+    --color2: #ECECEC;
+    --borde: #D6D6D6;
+}
+
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.navegacion {
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+}
+
+.navegacion .logo a img {
+    width: 120px;
+    margin-right: 30vh;
+    cursor: pointer;
+}
+
+.navegacion .contenido {
+    display: flex;
+    align-items: center;
+    margin-right: 30vh;
+}
+
+.navegacion .contenido a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0 40px;
+}
+
+.navegacion .contenido a li {
+    width: 50px;
+    font-size: 1.2rem;
+    transition: all .8s ease;
+    width: 70px;
+}
+
+.navegacion .contenido a li:hover{
+    color: var(--color2);
+}
+/* 
+lord-icon.icon-1 {
+    transform: scale(1.5);
+    width: 150px;
+    margin-right: 20px;
+    content-visibility: hidden;
+} */
+
+.hamburguesa {
+    content-visibility: hidden;
+}
+
+
+/* ---------------- primer section carrusel -------------- */
+
+#img-1 {
+    width: 800vh;
+    height: 87vh;
+}
+
+#img-2 {
+    width: 800vh;
+    height: 85vh;
+}
+
+.img-carrusel { 
+    width: 80%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.section-1 {
+
+    margin: 2% 3% 1% 17% ;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 63%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.desImg {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* ------------------ separacion ----------------- */
+
+.bordes {
+    border: none;
+    border-top: 1px solid var(--borde);
+    margin: 40px 10%;
+    width: 80%;   
+}
+
+/* ---------------------section 2 -------------------- */
+
+h1 {
+    font-size: 3rem;
+    margin-left: 40%;
+}
+
+.partir {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta {
+    width: 30em;
+    margin-left: 10%;
+}
+
+.partir .parte-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+
+.partir .parte-2 p{
+    width: 70%;
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
+
+/* --------------- section 3 ----------------- */
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.section-3 h2 {
+    font-size: 3rem;
+}
+
+.section-3 p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.section-3 img {
+    width: 700px;
+}
+
+/* ----------------------- section 4 --------------- */
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.section-4 h3 {
+    font-size: 3rem;
+}
+
+
+/* ------------------- footer ------------------- */
+
+/* ------------------- separacion footer 1 ---------------- */
+.borFooter {
+    height: 150px;
+    border: none;
+    border-left: 1px solid white;
+}
+
+.footer {
+    background-color: /* rgb(10, 10, 66) */ var(--color1);
+    color: whitesmoke;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 20px 0;
+}
+
+.footer .separacion-1 {
+    margin: 0 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .separacion-1 h4 {
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.footer .separacion-1 .logo-sin {
+    width: 150px;
+}
+
+
+/* ----------- separacion footer 2 ------------- */
+
+.footer .separacion-2 {
+    margin: 0 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer .separacion-2 h5 {
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.footer .separacion-2 ul li {
+    list-style: none;
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+
+/* ----------- separacion footer 3 ------------- */
+
+.footer .separacion-3 {
+    margin: 0 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .separacion-3 .tarjeta-sin {
+    width: 180px;
+}
+
+.footer .separacion-3 .redes a i {
+    margin: 10px;
+    color: whitesmoke;
+    transition: 1s all ease;
+}
+
+.footer .separacion-3 .redes a i:hover {
+    transform: scale(1.5);
+}
