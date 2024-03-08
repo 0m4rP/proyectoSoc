@@ -5,14 +5,13 @@
 
 .btn-sesion {
     border-radius: 16px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 10px 0;
     margin: 0;
     width: 150px;
-    border: 0.5px solid var(--color1);
     cursor: pointer;
     transition: all 1s ease;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .btn-sesion:hover {
@@ -20,6 +19,31 @@
     color: var(--color2);
 }
 
+
+/* section 0  */
+
+
+.btn-mas {
+    width: 200px;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 6%;
+    transition: 1s all ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color1);
+    color: var(--color2);
+    margin-left: 20%;
+}
+
+.btn-mas:hover {
+    border: var(--color1);
+    background-color: var(--color2);
+    color: var(--color1);
+    transform: scale(1.2); 
+}
 
 /* section2 */
 
@@ -32,14 +56,16 @@
     margin-top: 6%;
     transition: 1s all ease;
     cursor: pointer;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color1);
+    color: var(--color2);
 }
 
 #btn-info:hover{
-    border: var(--color2);
-    background-color: var(--color1);
-    color: var(--color2);
-    transform: scale(1.2);
+    border: var(--color1);
+    background-color: var(--color2);
+    color: var(--color1);
+    transform: scale(1.2); 
 }
 
 /* section4 */
@@ -51,12 +77,35 @@
     border-radius: 15px;
     transition: 1s all ease;
     cursor: pointer;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #btn-solicitar:hover {
     border: var(--color2);
     background-color: var(--color1);
     color: var(--color2);
+    transform: scale(1.2);
+}
+
+
+/* footer */
+
+#btn-politicas {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 6%;
+    transition: 1s all ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+#btn-politicas:hover {
+    background-color: var(--color2  );
+    color: var(--color1);
     transform: scale(1.2);
 }
