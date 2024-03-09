@@ -5,7 +5,7 @@
 
     .navegacion .contenido a{
         padding: 0 10px;
-        margin-right: 2px;
+        margin-right: 1px;
     }
 
     .navegacion .contenido a li {
@@ -15,14 +15,75 @@
     .btn-sesion {
         font-size: 1rem;
         padding: 7px;
+        margin-left: 10%;
     }
-    .navegacion .logo img {
-        margin-right: 0vh;
-    }
+
     .navegacion .contenido {
         margin-right: 0vh;
     }
+
+    .navegacion .logo a img {
+        margin-right: 5vh;
+    }
+
+
+    /* -------------------------- section 0 --------------------- */
+       
+    .section-0 .division-1 {
+        margin: 2%;
+    }
     
+    .section-0 .division-1 h1 {
+        font-size: 3.2rem;
+    }
+    
+    .section-0 .division-1 p {
+        font-size: 1.4rem;
+    }
+
+    
+    .section-0 .division-2 img {
+        height: 100%;
+        border-radius: 200px 0 0 0;
+    }
+    /* -------------------------- section 2 --------------------- */
+    h2, span {
+        font-size: 2.8rem;
+    }
+
+    .tarjeta {
+        width: 20em;
+        margin-left: 6%;
+    }
+    .partir .parte-2 p{
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-0 {    
+        height: 400px;
+    }
+
+    .section-0 .division-1 {
+        margin: 3%;
+    }
+    
+    .section-0 .division-1 h1 {
+        font-size: 3rem;
+    }
+    
+    .section-0 .division-1 p {
+        font-size: 1.2rem;
+    }
+    .btn-mas {
+        width: 200px;
+        padding: 10px;
+        margin-top: 1%;
+    }
+
+    
+
 }
 
 
@@ -39,10 +100,237 @@
     .btn-sesion {
         margin-left: 30px;
     }
+
+    /* ------- section 0 ------------ */
+
+    .section-0 .division-1 {
+        margin: 1%;
+    }
+    
+    .section-0 .division-1 h1 {
+        font-size: 2.8rem;
+    }
+    
+    .section-0 .division-1 p {
+        font-size: 1rem;
+    }
+
+    .btn-mas {
+        font-size: 1rem;
+    }
 }
 
-@media (max-width: 600px) {   
+@media (max-width: 830px) {
+    .section-0 {    
+        height: 300px;
+    }
+    
+    .section-0 .division-1 h1 {
+        font-size: 2.2rem;
+    }
+    .section-0 .division-1 p {
+        margin: 20px 0;
+    }
+
+    /* ------------------- separacion footer 1 ---------------- */
+    .borFooter {
+        height: 120px;
+        border: none;
+        border-left: 1px solid white;
+    }
+
+    .footer .partFooter-1 .separacion-1,
+    .footer .partFooter-1 .separacion-2,
+    .footer .partFooter-1 .separacion-3 {
+        margin: 0 2%;
+    }
+
+    .footer .partFooter-1 .separacion-1 h4, 
+    .footer .partFooter-1 .separacion-2 h5 {
+        margin: 10px 0;
+        font-size: 1.6rem;
+    }
+
+    .footer .partFooter-1 .separacion-1 .logo-sin {
+        width: 120px;
+    }
+
+    #btn-politicas {
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px;
+        
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+
+    /* ----------- separacion footer 2 ------------- */
+
+    .footer .partFooter-1 .separacion-2 ul li {
+        margin: 2px 0;
+        font-size: 1rem;
+    }
+    
+    /* ----------- separacion footer 3 ------------- */
+
+    .footer .partFooter-1 .separacion-3 .tarjeta-sin {
+        width: 150px;
+    }
+
+    .footer .partFooter-1 .separacion-3 .redes a i {
+        margin: 8px;
+    }
+
+    
+    /* ---------------------section 2 -------------------- */
+
+    h2, span {
+        font-size: 2.5rem;
+        margin-left: 20%;
+    }
+
+    .partir {
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 20em;
+        margin-left: 3%;
+    }
+
+    .partir .parte-2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* --------------- section 3 ----------------- */
+
+
+    .section-3 h3 {
+        font-size: 2.5rem;
+    }
+
+    .section-3 img {
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 650px) {   
     .navegacion {
         display: flex;
     }
+
+    /* -----------section 0 ----------- */
+    .section-0 {    
+        height: 250px;
+    }
+    
+    .section-0 .division-1 h1 {
+        font-size: 2rem;
+    }
+    .section-0 .division-1 p {
+        font-size: .8rem;
+        margin: 10px 0;
+    }
+    .btn-mas {
+        font-size: .8rem;
+        padding: 10px;
+        width: 150px;
+    }
+
+    /* ------------------- separacion footer 1 ---------------- */
+    .borFooter {
+        height: 160px;
+    }
+
+    .footer .partFooter-1 .separacion-1,
+    .footer .partFooter-1 .separacion-2,
+    .footer .partFooter-1 .separacion-3 {
+        margin: 0 1%;
+    }
+
+    .footer .partFooter-1 .separacion-1 h4, 
+    .footer .partFooter-1 .separacion-2 h5 {
+        font-size: 1.2rem;
+    }
+
+    .footer .partFooter-1 .separacion-1 .logo-sin {
+        width: 100px;
+    }
+
+    #btn-politicas {
+        width: 80%;
+        font-size: .7rem;
+    }
+
+    /* ----------- separacion footer 2 ------------- */
+
+    .footer .partFooter-1 .separacion-2 ul li {
+        font-size: .9rem;
+    }
+    
+    /* ----------- separacion footer 3 ------------- */
+
+    .footer .partFooter-1 .separacion-3 .tarjeta-sin {
+        width: 120px;
+    }
+
+    .footer .partFooter-1 .separacion-3 .redes a i {
+        margin: 2px;
+    }
+
+    
+    /* ---------------------section 2 -------------------- */
+
+    h2, span {
+        font-size: 2.1rem;
+    }
+
+    .tarjeta {
+        width: 15em;
+    }
+    
+    .partir .parte-2 p{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    #btn-info {
+        width: 200px;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    /* --------------- section 3 ----------------- */
+
+
+    .section-3 h3 {
+        font-size: 2rem;
+    }
+
+    .section-3 img {
+        width: 100px;
+    }
+
 }
+
+/* -------------- carrusel ----------- */
+
+@media (max-width: 768px) {
+    /* Estilos específicos para dispositivos con un ancho máximo de 768px */
+    .section-1 {
+        width: 90%; /* Ancho del 90% del contenedor principal */
+        height: auto; /* Altura automática para adaptarse al contenido */
+        margin: 2% auto; /* Margen superior e inferior del 2%, centrado horizontalmente */
+    }
+
+    .img-carrusel {
+        max-width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+        height: auto; /* Altura automática para adaptarse al contenido */
+    }
+}
+
+/* Estilos adicionales para el menú de hamburguesa */
+

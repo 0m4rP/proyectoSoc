@@ -23,6 +23,7 @@ body {
     position: fixed;
     bottom: 80px;
     right: 20px; 
+    z-index: 1000;
 }
 
 .navegacion {
@@ -65,17 +66,57 @@ body {
 .navegacion .contenido a li:hover{
     color: var(--color2);
 }
-/* 
-lord-icon.icon-1 {
-    transform: scale(1.5);
-    width: 150px;
-    margin-right: 20px;
-    content-visibility: hidden;
-} */
 
 .hamburguesa {
-    content-visibility: hidden;
+    display: none;
+    background: none;
+    border: none;
 }
+
+@media (max-width: 1150px) {
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: var(--fondo1);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left .4s;
+    }
+
+    .nav-menu-item {
+        line-height: 70px;
+    }
+
+    .nav-menu-item:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: aqua;
+    }
+
+    .hamburguesa {
+    display: block;
+}
+
+    .contenido.nav-menu_visible {
+        left: 0;
+    }
+
+}
+
+
+
+
+
 
 /* ---------------- seccion cero inicial ----------------- */
 
@@ -116,43 +157,37 @@ lord-icon.icon-1 {
 
 /* ---------------- primer section carrusel -------------- */
 
-#img-1 {
-    width: 800vh;
-    height: 87vh;
-}
-
-#img-2 {
-    width: 800vh;
-    height: 85vh;
-}
-
+#img-1,
+#img-2,
 #img-3 {
-    width: 800vh;
-    height: 85vh;
+    width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
 }
 
-.img-carrusel { 
-    width: 80%;
-    height: 750px;
+.img-carrusel {
+    width: 100%; /* Las imágenes del carrusel ocuparán el ancho completo */
+    max-width: 1020px; /* Limitar el ancho máximo */
+    height: auto; /* Mantener la proporción de aspecto */
     object-fit: cover;
 }
 
 .section-1 {
-
-    margin: 2% 3% 1% 17% ;
-
+    margin: 2% 3% 1% 17% ; /* Margen superior e inferior del 2%, centrado horizontalmente */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    width: 63%;
-    height: 600px;
+    width: 63%; /* Se adapta al ancho del contenedor principal */
+    height: 50%;
     overflow: hidden;
     border-radius: 15px;
 }
 
 .desImg {
     display: flex;
-    transform: translateX(0);
     transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
+
+
+
 
 /* ------------------ separacion ----------------- */
 
