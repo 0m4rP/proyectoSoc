@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/buttons.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/paneles.css">
+    <link rel="stylesheet" href="styles/navegacion.css">
     <link rel="icon" href="img/logo-2.png">
 
 
@@ -25,26 +26,25 @@
 <body>
     
     
-    <nav class="navegacion">
-        <div class="logo">
-            <a href="https://soc.com.co">
-                <img src="img/logo-1.jpg" alt="logo-soc">
-            </a>
-        </div>
-            <ul class="contenido">
-                <a href="#section-0" class="nav-menu-item"><li>Inicio</li></a>
-                <a href="#section-2" class="nav-menu-item"><li>BCard</li></a>
-                <a href="#section-3" class="nav-menu-item"><li>¿Cómo funciona?</li></a>
-                <a href="#footer" class="nav-menu-item"><li>Contactanos</li></a>
-            </ul>
-        <div>
-    
-    </div>
-        <button class="btn-sesion">Iniciar Sesión</button>
-    <button class="hamburguesa">
-        <i class="fa-solid fa-bars fa-2x"></i>
-    </button>
-    </nav>
+    <header class="header">
+        <nav class="nav">
+            <div class="logos">
+                <a href="https://soc.com.co"><img class="logo1" src="img/logo-1-sinfondo.png" alt="logo-soc"></a>
+            </div>
+
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="menu1">
+                <li class="nav-menu-item"><a href="#section-0" class="nav-menu-link"><li>Inicio</li></a></li>
+                <li class="nav-menu-item"><a href="#section-2" class="nav-menu-link"><li>BCard</li></a></li>
+                <li class="nav-menu-item"><a href="#section-3" class="nav-menu-link"><li>¿Cómo funciona?</li></a></li>
+                <li class="nav-menu-item"><a href="#footer" class="nav-menu-link"><li>Contactanos</li></a></li>
+                <button class="btn-sesion">INICIAR SESION</button>
+            </ul>   
+        </nav>      
+    </header>
 
     <a href="https://wa.me/+573155000014"><img id="whatsapp" src="img/whatsapp.png" alt="logo-whatsapp"></a>
 
@@ -60,6 +60,7 @@
         </div>
         <div class="division-2">
             <img src="img/persona-celular 2.png" alt="dos personas en el celular">
+            <img class="img-2" src="img/persona-celular 3.png" alt="dos personas en el celular">
         </div>
    </section>
 
@@ -67,9 +68,9 @@
 
     <section class="section-1" alt="algo breve" id="section-1">
         <div class="desImg" id="imgs">
+            <img class="img-carrusel" id="img-3" src="img/img-3.jpeg" alt="segunda-img">
             <img class="img-carrusel" id="img-1" src="img/img-1.jpeg" alt="primer-img">
             <img class="img-carrusel" id="img-2" src="img/img-2.jpeg" alt="segunda-img">
-            <img class="img-carrusel" id="img-3" src="img/img-3.jpeg" alt="segunda-img">
         </div>
     </section>
 
@@ -107,7 +108,7 @@
         <h3>¿Cómo funciona?</h3>
 
         <div class="container">
-            <div class="panel active" style="background-image: url('img/img-3.jpeg');">
+            <div class="panel active" style="background-image: url('img/img-1.jpeg');">
                 <p>Contactos de clientes a un BCard</p>
             </div>
             <div class="panel" style="background-image: url('img/img-2.jpeg');">
@@ -126,7 +127,7 @@
             <div class="separacion-1">
                 <img class="logo-sin" src="img/logo-1-sinfondo.png" alt="logo">
     
-                <h4>SOC BUSINESS CARD</h4>
+                <h4>BUSINESS CARD</h4>
 
                 <a href=""><button id="btn-politicas">Politicas de privacidad</button></a>
             </div>
@@ -138,7 +139,7 @@
     
                 <ul>
                     <!-- agregar el logo de whatsapp en el numero -->
-                    <li><i class="fa-brands fa-whatsapp"></i> +57 315 5000014</li>
+                    <li><i class="fa-brands fa-whatsapp"></i> +57 315 500 0014</li>
                     <li><i class="fa-regular fa-envelope"></i> clientes@soc.com.co</li>
                 </ul>
             </div>
@@ -151,10 +152,10 @@
                 </a>
                 
                 <div class="redes">
-                    <a href="https://www.facebook.com/soc.bcard"><i class="fa-brands fa-facebook fa-2x"></i></a>
-                    <a href="https://www.instagram.com/soc.bc"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                    <a href="https://www.tiktok.com/@soc.bc"><i class="fa-brands fa-tiktok fa-2x"></i></a>
-                    <a href="https://www.youtube.com/soc-bcard"><i class="fa-brands fa-youtube fa-2x"></i></a>                    
+                    <a href="https://www.facebook.com/soc.bcard" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/soc.bc" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.tiktok.com/@soc.bc" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+                    <a href="https://www.youtube.com/soc-bcard" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>                    
                     
                 </div>
             </div>
