@@ -85,6 +85,10 @@ a i {
         height: 60px;
     }
 
+    .logos {
+        margin-left: 10px; /* Ajuste del margen izquierdo en pantallas más pequeñas */
+    }
+
     .menu1 {
         flex-direction: column;
         align-items: center;

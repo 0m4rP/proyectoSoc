@@ -19,12 +19,15 @@
 .btn-sesion:hover {
     background-color: var(--color1);
     color: var(--color2);
+    
 }
 
 a {
     color: var(--color2);
     text-decoration: none;
 }
+
+
 
 
 /* section 0  */
@@ -52,8 +55,8 @@ a {
     transform: scale(1.2); 
 }
 
-/* section2 */
 
+/* section2 */
 #btn-info {
     width: 200px;
     font-size: 1.2rem;
@@ -68,15 +71,13 @@ a {
     color: var(--color2);
 }
 
-#btn-info:hover{
-    border: var(--color1);
+#btn-info:hover {
     background-color: var(--color2);
     color: var(--color1);
     transform: scale(1.2); 
 }
 
 /* section4 */
-
 #btn-solicitar {
     width: 200px;
     font-size: 1.2rem;
@@ -88,15 +89,13 @@ a {
 }
 
 #btn-solicitar:hover {
-    border: var(--color2);
-    background-color: var(--color1);
-    color: var(--color2);
+    background-color: var(--color2);
+    color: var(--color1);
     transform: scale(1.2);
+    
 }
 
-
 /* footer */
-
 #btn-politicas {
     width: 100%;
     font-size: 1.2rem;
@@ -112,7 +111,25 @@ a {
 }
 
 #btn-politicas:hover {
-    background-color: var(--color2  );
+    background-color: var(--color2);
     color: var(--color1);
     transform: scale(1.2);
+}
+
+/* Media query para ajustar los estilos de hover en pantallas más pequeñas */
+@media (max-width: 950px) {
+    #btn-info:hover,
+    #btn-solicitar:hover,
+    #btn-politicas:hover {
+        background-color: var(--color1);
+        color: var(--color2);
+        transform: none; /* Elimina la transformación en hover en pantallas más pequeñas */
+    }
+
+    .btn-mas:hover {
+        border: none; /* Elimina el borde en hover en pantallas más pequeñas */
+        background-color: var(--color1); /* Mantén el color de fondo original en hover */
+        color: var(--color2); /* Mantén el color de texto original en hover */
+        transform: none; /* Elimina cualquier transformación en hover en pantallas más pequeñas */
+    }
 }
