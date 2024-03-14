@@ -70,6 +70,10 @@ body {
     display: none; /* Oculta la imagen en pantallas más pequeñas */
 }
 
+.section-0 .division-1 .img-3 {
+    display: none; /* Oculta la imagen en pantallas más pequeñas */
+}
+
 
 
 
@@ -173,6 +177,7 @@ h2, span {
 .section-3 img {
     width: 700px;
 }
+
 
 /* ------------------- footer ------------------- */
 
